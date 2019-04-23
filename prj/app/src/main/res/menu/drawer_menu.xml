@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Member">
+        <menu>
+            <item
+                android:id="@+id/mymenu"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="로그인" />
+        </menu>
+    </item>
+    <item android:title="Contents">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu1"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="메인" />
+                <item
+                    android:id="@+id/menu2"
+                    android:icon="@drawable/ic_movie_black_24dp"
+                    android:title="영화정보" />
+                <item
+                    android:id="@+id/menu3"
+                    android:icon="@drawable/ic_wb_sunny_black_24dp"
+                    android:title="날씨정보" />
+                <item
+                    android:id="@+id/menu4"
+                    android:icon="@drawable/ic_directions_car_black_24dp"
+                    android:title="교통정보" />
+                <item
+                    android:id="@+id/menu5"
+                    android:icon="@drawable/ic_my_location_black_24dp"
+                    android:title="위치공유" />
+                <item
+                    android:id="@+id/menu6"
+                    android:icon="@drawable/ic_location_city_black_24dp"
+                    android:title="숙박정보" />
+                <item
+                    android:id="@+id/menu7"
+                    android:icon="@drawable/ic_web_black_24dp"
+                    android:title="웹브라우저" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/boarder"
+                android:icon="@drawable/ic_list_black_24dp"
+                android:title="자유게시판" />
+            <item
+                android:id="@+id/callinder"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="일정" />
+            <item
+                android:id="@+id/locatian"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="친구찾기" />
+            <item
+                android:id="@+id/chat"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="채팅" />
+            <item android:id="@+id/share"
+                android:title="공유"
+                android:icon="@drawable/ic_share_black_24dp" />
+            <item
+                android:id="@+id/translation"
+                android:icon="@drawable/ic_list_black_24dp"
+                android:title="번역기" />
+        </menu>
+    </item>
+</menu>
